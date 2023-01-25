@@ -1,0 +1,91 @@
+.rodape {
+  background-color: var(--cor-rodape);
+  text-align: center;
+}
+
+.rodape-social {
+  margin: 20px 0 10px 0;
+}
+
+.rodape-social li {
+  display: inline-block;
+}
+
+.rodape-social-link {
+  width: 52px;
+  height: 52px;
+  margin: 0 10px;
+  text-indent: -999px;
+  overflow: hidden;
+  display: block;
+}
+
+.rodape-social-link--facebook,
+.rodape-social-link--instagram,
+.rodape-social-link--twitter,
+.rodape-social-link--tiktok {
+  background-repeat: no-repeat;
+  background-size: 45px;
+  
+}
+
+.rodape-social-link--facebook {
+  background-image: url(../img/facebook.png);
+}
+
+.rodape-social-link--twitter {
+  background-image: url(../img/twitter.png);
+}
+
+.rodape-social-link--instagram {
+  background-image: url(../img/instagram.png);
+}
+.rodape-social-link--tiktok {
+ background-image: url(../img/tiktok.png);
+}
+
+.rodape-nav-item {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.rodape-nav-link {
+  color: var(--cor-branca);
+  text-decoration: none;
+  line-height: 3;
+}
+
+.rodape-nav-link:hover,
+.rodape-nav-link:focus {
+  text-decoration: underline;
+}
+
+@media (min-width: 830px) {
+
+  .rodape-social-link--facebook:hover,
+  .rodape-social-link--instagram:hover,
+  .rodape-social-link--twitter:hover,
+  .rodape-social-link--tiktok:hover {
+    background-size: 52px;
+   }
+  .rodape-social-link--facebook:hover {
+    background-image: url(../img/facebook-hover.png);
+  }
+  .rodape-social-link--twitter:hover {
+    background-image: url(../img/twitter-hover.png);
+  }
+  .rodape-social-link--instagram:hover {
+    background-image: url(../img/instagram-hover.png);
+  }
+  .rodape-social-link--tiktok:hover {
+    background-image: url(../img/tiktok-hover.png);
+  }
+
+  .rodape .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+  }
+
+}

@@ -1,0 +1,69 @@
+.pularNavegacao,
+.pularNavegacao:active,
+.pularNavegacao:focus,
+.pularNavegacao:hover {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  width: 1px;
+  height: 1px;
+  color: transparent;
+  position: absolute;
+}
+
+.clearfix:after { /* Correção de espaço entre APP e UNIDADE */
+  content: "."; 
+  display: block; 
+  clear: both;
+}
+
+.container {
+  padding: 3.5em 5%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.tituloPadrao {
+  margin-bottom: 1em;
+  color: var(--cor-cinza-fontes);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btnPadrao {
+  border-radius: 5px;
+  border: 0;
+  background-color: var(--cor-vermelha);
+  color: var(--cor-branca);
+  font-size: 1.2em;
+  padding: .3em 1em;
+  outline: 0;
+  text-decoration: none;
+}
+
+.btnPadrao:hover,
+.btnPadrao:focus {
+  background-image: linear-gradient(rgba(255, 255, 255, .05), rgba(255, 255, 255, .05));
+  cursor: pointer;
+}
+
+.btnPadrao--pequeno {
+  font-size: 1em;
+}
+
+@media (min-width: 830px) {
+  .container {
+    width: 1200px;
+    width: 800px;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 3.5em 2em;
+  }
+}
+
+@media (min-width: 1065px)  {
+  .container {
+    width: 1000px;
+  }
+}

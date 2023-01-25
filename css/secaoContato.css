@@ -1,0 +1,28 @@
+
+.secaoContato {
+  background-color: var(--cor-fundo-plano);
+  text-align: center;
+  text-align: left;
+}
+
+.secaoContato-form-legend {
+  max-width: 300px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.secaoContato-form-cta {
+  width: 100%;
+  margin-top: 1em;
+  display: block;
+  background: transparent;
+  color: var(--cor-vermelha);
+  border: 1px solid var(--cor-vermelha);
+}
+
+.secaoContato-form-cta:hover,
+.secaoContato-form-cta:focus {
+  color: var(--cor-branca);
+  background-color: var(--cor-vermelha);
+}

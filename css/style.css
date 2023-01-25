@@ -1,0 +1,33 @@
+@import url(tema-padrao.css); /* CUIDADO AO SOBREPOR */
+@import url(secaoPrincipal.css);
+@import url(cabecalho.css);
+@import url(diferenciais.css);
+@import url(secaoApp.css);
+@import url(secaoPlanos.css);
+@import url(secaoUnidades.css);
+@import url(listaDeUnidades.css);
+@import url(secaoModalidades.css);
+@import url(secaoContato.css);
+@import url(contatoCampo.css);
+@import url(rodape.css);
+
+/* Variaveis de cor */
+:root {
+    --cor-cinza: #7D7D7D;
+    --cor-cinza-medio: #a5a5a5;
+    --cor-cinza-claro: #d4d4d4;
+    --cor-cinza-fontes:#4F4C4C ;
+    --cor-branca: #fff;
+    --cor-preta: #222;
+    --cor-azul-checkbox: radial-gradient(circle, #2DA4E7, #2F80ED);;
+    --cor-verde-valido: #219653;
+    --cor-vermelho-invalido: #FF0000;
+    --cor-rodape: rgb(63, 62, 62);
+    --cor-fundo-plano: #F7F4F4;
+    --cor-nav-banners: #01232c;
+    --cor-platinum: #03BB85;
+    --cor-gold: #ffd700;
+    --cor-silver: #b6c2cc;    
+    --cor-vermelha: #B72E2E;
+    --botao-unidade: hsla(200, 70%, 0%, .6);
+}

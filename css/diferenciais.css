@@ -1,0 +1,62 @@
+
+.diferenciais {
+  text-align: center;
+}
+
+.diferenciais-diferencial {
+  margin: 0 3em 2em 3em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  max-width: 350px;
+  padding-left: 4em;
+}
+
+.diferenciais-diferencial-titulo {
+  color: var(--cor-cinza-fontes);
+  font-size: 1.2em;
+  margin-top: .9em;
+  margin-bottom: .6em;
+
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 2.5em;
+  padding-left: 42px;
+  padding-top: .5em;
+  transform: translateX(-42px);
+  text-transform: uppercase;
+}
+
+.diferenciais-diferencial-titulo--estacionamento {
+  background-image: url(../img/icone-estacionamento.png);
+}
+
+
+.diferenciais-diferencial-titulo--dinheiro {
+  background-image: url(../img/icone-dinheiro.png);
+}
+
+
+.diferenciais-diferencial-titulo--professores {
+  background-image: url(../img/icone-professores.png);
+}
+
+
+
+
+@media (min-width: 830px) {
+
+
+  .secaoDiferenciais {
+    padding-bottom: 0;
+    background-color: var(--cor-fundo-plano);
+  }
+
+
+  .diferenciais-diferencial {
+    margin: 0 .5em;
+    font-size: .9em;
+    max-width: 260px;
+  }
+
+}

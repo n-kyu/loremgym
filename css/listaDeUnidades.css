@@ -1,0 +1,84 @@
+.listaDeUnidades-gym {
+  text-align: left;
+  padding-bottom: 2em;
+  max-width: 815px;
+  display: inline-block;
+  white-space: normal;
+}      
+
+.listaDeUnidades {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.listaDeUnidades-item {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  display: none;
+}
+
+.listaDeUnidades-item:not(:target):first-child{
+  display: inline-block;
+}
+
+.listaDeUnidades-item:target {
+  display: inline-block;
+}
+
+.listaDeUnidades-gym-img {
+  width: 100%;
+  display: block;
+}
+
+.listaDeUnidades-item:nth-of-type(2) img {
+  filter: sepia(.7)
+}
+
+.listaDeUnidades-item:nth-of-type(3) img {
+  filter: hue-rotate(10deg) saturate(1)
+}
+
+.listaDeUnidades-gym-titulo {
+  font-family: 'Montserrat', sans-serif;
+  margin: .7em 0;
+  font-size: 1.2em;
+}
+
+.listaDeUnidades-gym-link {
+  color: var(--cor-vermelha);
+  font-weight: bold;
+}
+
+.listaDeUnidades-slider {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.listaDeUnidades-slider li {
+  display: inline-block;
+}
+
+.listaDeUnidades-slider-item {
+  text-indent: -9999px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: var(--cor-cinza-claro);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 .5em;
+  border: 0;
+}
+
+.listaDeUnidades-slider-item:hover,
+.listaDeUnidades-slider-item:focus {
+  background-color: var(--cor-cinza-medio);
+  outline: 0;
+}
+
+.listaDeUnidades-slider-item--ativo {
+  background: var(--botao-unidade)
+}
+
